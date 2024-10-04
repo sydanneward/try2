@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"npm start --prefix frontend\" \"node server.js\""
-,    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "concurrently \"npm start --prefix frontend\" \"node server.js\"",
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
@@ -15,17 +15,19 @@
     "concurrently": "^9.0.1",
     "cors": "^2.8.5",
     "express": "^4.21.0",
-    "googleapis": "^144.0.0"
+    "googleapis": "^144.0.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "^5.0.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sydanneward/try2.git"
   },
   "engines": {
-  "node": "20.x",
-  "npm": "10.x"
-}
-,
+    "node": "20.x",
+    "npm": "10.x"
+  },
   "bugs": {
     "url": "https://github.com/sydanneward/try2/issues"
   },

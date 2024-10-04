@@ -1,13 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-  "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
-
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +15,14 @@
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "googleapis": "^144.0.0"
-  }
-  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sydanneward/try2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sydanneward/try2/issues"
+  },
+  "homepage": "https://github.com/sydanneward/try2#readme",
+  "description": ""
 }
-
